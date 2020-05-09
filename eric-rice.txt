@@ -163,3 +163,27 @@ then: git add myNewProject.js
 6. to SAVE your project to git(memory file) -- git commit -m "your message here. explain what you did" <enter>
 
 7. git push origin "myNewProject.js" to write to github
+
+Stretch Review questions:
+
+ 1. What is the difference between an inline element and a block element? 
+ An inline element, like <span></span> will not cause a line break, while a block element will. 
+
+ 2. What happens when an element is positioned absolutely?
+  position value is absolute/fixed
+
+  3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+  using spacing margins, padding and display types.
+  
+  4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default 5. In your own words, explain the box model. What is the fix for the box model?
+
+  Display block: <div> </div>
+                <section>
+                </section>
+                <p></p>
+
+                Inline block: <span></span>
+
+                The box model is a way of organizing HTML into a box consisting of margin, border, padding and content. It helps to organize our HTMl and give it meaning, while also providing a framework for our CSS styling. 
+
